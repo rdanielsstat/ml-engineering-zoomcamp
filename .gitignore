@@ -1,22 +1,60 @@
-.venv/
-
+# OS
 .DS_Store
 
-homework/answers
-homework/data
+# Python
+__pycache__/
+*.py[cod]
+*.so
 
-midterm_project/articles
-midterm_project/python/catboost_info
-midterm_project/data/untouched/
-midterm_project/app/__pycache__
-midterm_project/app/.venv
+# Virtual environments
+.venv/
+venv/
+env/
 
-homework/08-deep-learning/*.zip
-homework/08-deep-learning/data
-homework/08-deep-learning/*_v2.ipynb
+# Jupyter
+.ipynb_checkpoints/
 
-homework/09-serverless/data
-homework/09-serverless/hair_classifier_v1.onnx
-homework/09-serverless/hair_classifier_v1.onnx.data
-homework/09-serverless/aws-lambda-rie
+# Environment variables
+.env
+.env.*
 
+# ML artifacts
+*.onnx
+*.pt
+*.pth
+*.h5
+*.joblib
+*.pkl
+
+# Data (if not meant to be committed)
+data/
+datasets/
+
+# Training outputs
+logs/
+runs/
+checkpoints/
+models/
+
+# Archives
+*.zip
+*.tar.gz
+
+# Testing
+.pytest_cache/
+
+# Node / serverless
+node_modules/
+
+# Build
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Project-specific large or generated folders
+exercises/**/data/
+ml_project/**/data/
+ml_project/**/catboost_info/
