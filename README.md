@@ -1,51 +1,70 @@
 # Machine Learning Engineering Zoomcamp Coursework
 
-Work and projects by Rob Daniels
+Rob Daniels
 
-This repository contains my coursework and projects for the **Machine Learning Zoomcamp**, a free, global, 4-month course on **ML Engineering** taught by [Alexey Grigorev](https://github.com/alexeygrigorev) and the **DataTalks.Club** team.
+This repository contains hands-on machine learning engineering work completed as part of the **Machine Learning Zoomcamp**, a free, global, 4-month course on applied **ML Engineering** taught by [Alexey Grigorev](https://github.com/alexeygrigorev) and the **DataTalks.Club** team.
 
-I am incredibly thankful for this course. It provided an excellent, structured learning path from core ML concepts to deploying real-world applications. The hands-on exercises, projects, and community support have greatly enriched my understanding of machine learning engineering.
-
----
-
-## Repository Contents
-
-This repository holds my personal work, including:
-
-- **Homework notebooks** – Assignments from various modules covering topics such as:
-  - Linear and logistic regression  
-  - Decision trees and ensemble learning  
-  - Evaluation metrics and model validation  
-  - Deep learning with TensorFlow and PyTorch  
-
-- **Midterm Project** – A practical project implementing machine learning algorithms and applying end-to-end workflow from data preprocessing to model evaluation.  
-
-*Future updates may include additional capstone projects as I progress through the course.*
+The work here focuses on building practical, end-to-end ML pipelines, from data preparation and modeling to evaluation and deployment, using modern Python tooling and reproducible workflows.
 
 ---
 
-## About the Course
+## Repository Structure
 
-**Machine Learning Zoomcamp** teaches the complete ML engineering pipeline:
+This repository includes two main components:
 
-- **ML Models** – Linear regression, logistic regression, decision trees, ensemble methods, neural networks  
-- **Python Libraries** – NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch  
-- **Deployment and Production** – Docker, FastAPI, Kubernetes, AWS Lambda  
-- **Practical Focus** – Real-world datasets, project-based learning, and portfolio-building  
+`exercises/`
 
-The course is self-paced but also offers live cohorts with peer review, scoring, and certificates. All course materials are openly available in the [official GitHub repository](https://github.com/DataTalksClub/machine-learning-zoomcamp).
+Applied module work and experiments covering core machine learning engineering topics, including:
+
+- Linear and logistic regression
+- Decision trees and ensemble methods
+- Evaluation metrics and validation strategies
+- Feature engineering and data preprocessing
+- Introductory deep learning exercises
+
+These notebooks emphasize practical implementation and experimentation with real and simulated datasets.
+
+`ml_project/`
+
+A complete end-to-end machine learning project demonstrating:
+
+- Data ingestion and cleaning
+- Exploratory analysis
+- Feature engineering
+- Model training and selection using scikit-learn
+- Model evaluation
+- Reproducible project structure
+
+This project is designed to mirror a realistic ML engineering workflow rather than a purely academic exercise.
+
+Future additions may include further end-to-end projects as the repository evolves.  
+
+---
+
+## About the Zoomcamp
+
+The **Machine Learning Zoomcamp** covers the full ML engineering lifecycle:
+
+- Modeling: linear and logistic regression, tree-based models, ensembles, neural networks
+- Tooling: NumPy, Pandas, scikit-learn, TensorFlow, PyTorch
+- Deployment: Docker, FastAPI, cloud services, and container-based workflows
+- Best practices: reproducibility, project structure, evaluation, and monitoring
+
+All course materials are open source and available in the official repository:
+
+[https://github.com/DataTalksClub/machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp).
 
 ---
 
 ## Acknowledgments
 
-I would like to sincerely thank **Alexey Grigorev** and the **DataTalks.Club** team for creating such a comprehensive and accessible course. The free availability, structured content, and supportive global community have made this an exceptional learning experience.
+Many thanks to **Alexey Grigorev** and the **DataTalks.Club** team for creating and maintaining such a high-quality, freely available program. The structure, technical depth, and emphasis on real-world workflows make it an excellent resource for anyone transitioning into ML engineering.
 
 ---
 
 ## Additional Resources
 
-- [Course YouTube Playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
-- [Slack Community](https://datatalks.club/slack)
-- [Official ML Zoomcamp Repository](https://github.com/DataTalksClub/machine-learning-zoomcamp)
+- [Course videos](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
+- [Community Slack](https://datatalks.club/slack)
+- [Official repository](https://github.com/DataTalksClub/machine-learning-zoomcamp)
 - [Course FAQ](https://datatalks.club/faq/machine-learning-zoomcamp.html)
