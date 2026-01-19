@@ -35,6 +35,7 @@ logs/
 runs/
 checkpoints/
 models/
+answers/
 
 # Archives
 *.zip
