@@ -1,3 +1,7 @@
+# 🚀 Machine Learning Engineering Portfolio
+
+### Machine Learning Zoomcamp
+
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
@@ -8,69 +12,119 @@
 ![CRISP-DM](https://img.shields.io/badge/Framework-CRISP--DM-informational)
 ![Supervised Learning](https://img.shields.io/badge/ML-Supervised%20Learning-brightgreen)
 
-# Machine Learning Engineering Zoomcamp Coursework
+## Overview
 
-Rob Daniels
+This repository documents my end-to-end machine learning engineering work completed through the **Machine Learning Zoomcamp**, an intensive, production-oriented ML program created by [Alexey Grigorev](https://github.com/alexeygrigorev) and the **DataTalks.Club** community.
 
-This repository contains hands-on machine learning engineering work completed as part of the **Machine Learning Zoomcamp**, a free, global, 4-month course on applied **ML Engineering** taught by [Alexey Grigorev](https://github.com/alexeygrigorev) and the **DataTalks.Club** team.
+The focus of this work is not just modeling, but the *full ML lifecycle*:
+- Problem framing
+- Data preparation and feature engineering
+- Model training and validation
+- Evaluation and iteration
+- Deployment as scalable services
+- Containerization and cloud-based serving
 
-The work here focuses on building practical, end-to-end ML pipelines, from data preparation and modeling to evaluation and deployment, using modern Python tooling and reproducible workflows.
+This repository reflects hands-on implementation of real-world ML workflows rather than purely academic exercises.
 
----
+## What This Repository Demonstrates
+
+### Core Machine Learning Foundations
+- Linear regression implemented from scratch and with Scikit-Learn
+- Logistic regression for classification
+- Feature engineering and regularization
+- Model validation and dataset splitting
+- Evaluation metrics for regression and classification
+- Cross-validation and model comparison
+
+### Tree-Based & Ensemble Methods
+- Decision Trees
+- Random Forest
+- Gradient Boosting with XGBoost
+- Hyperparameter tuning
+- Feature importance analysis
+
+### Deep Learning
+- Neural network fundamentals
+- TensorFlow and Keras workflows
+- PyTorch fundamentals
+- Convolutional neural networks
+- Transfer learning
+- Model optimization strategies
+
+### Production & Deployment
+- Model serialization with Pickle
+- FastAPI web services
+- Docker containerization
+- AWS Lambda deployment
+- Kubernetes orchestration
+- TensorFlow Serving
+
+The emphasis throughout is on reproducibility, modular design, and deployment-ready architecture.
 
 ## Repository Structure
 
-This repository includes two main components:
-
 `exercises/`
 
-Applied module work and experiments covering core machine learning engineering topics, including:
+Module-based implementations covering:
+- Regression and classification modeling
+- Evaluation and validation strategies
+- Feature engineering
+- Introductory deep learning experiments
 
-- Linear and logistic regression
-- Decision trees and ensemble methods
-- Evaluation metrics and validation strategies
-- Feature engineering and data preprocessing
-- Introductory deep learning exercises
-
-These notebooks emphasize practical implementation and experimentation with real and simulated datasets.
+These notebooks emphasize understanding the mathematical and algorithmic foundations behind each technique.
 
 `ml_project/`
 
-A complete end-to-end machine learning project demonstrating:
-
+An end-to-end machine learning project structured to mirror a production workflow:
 - Data ingestion and cleaning
-- Exploratory analysis
+- Exploratory data analysis
 - Feature engineering
-- Model training and selection using scikit-learn
-- Model evaluation
-- Reproducible project structure
+- Model training and validation
+- Evaluation
+- API deployment
+- Containerized execution
 
-This project is designed to mirror a realistic ML engineering workflow rather than a purely academic exercise.
+This project demonstrates how experimentation transitions into deployable systems.
 
-Future additions may include further end-to-end projects as the repository evolves.  
+## Course Modules Covered
+- Introduction to Machine Learning
+- Regression Modeling
+- Classification Modeling
+- Evaluation Metrics
+- Model Deployment
+- Decision Trees & Ensemble Learning
+- Neural Networks & Deep Learning
+- Serverless Deployment
+- Kubernetes & Scalable Model Serving
+- Each module builds toward production-level ML engineering capability.
 
----
+## Projects
 
-## About the Zoomcamp
+This program includes:
+- Midterm project focused on ensemble methods
+- Capstone projects demonstrating deployment and scalability
 
-The **Machine Learning Zoomcamp** covers the full ML engineering lifecycle:
+These projects required:
+- End-to-end model development
+- Deployment as a web service
+- Containerization
+- Peer review and evaluation
 
-- Modeling: linear and logistic regression, tree-based models, ensembles, neural networks
-- Tooling: NumPy, Pandas, scikit-learn, TensorFlow, PyTorch
-- Deployment: Docker, FastAPI, cloud services, and container-based workflows
-- Best practices: reproducibility, project structure, evaluation, and monitoring
+## Technical Focus
 
-All course materials are open source and available in the official repository:
+This body of work emphasizes:
+- Reproducibility
+- Proper validation methodology
+- Clean project structure
+- Production readiness
+- Cloud-native deployment patterns
 
-[https://github.com/DataTalksClub/machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp).
+## Acknowledgment
 
----
+Credit to [Alexey Grigorev](https://github.com/alexeygrigorev) and the **DataTalks.Club** community for designing a rigorous and highly practical program focused on real-world ML engineering.
 
-## Acknowledgments
-
-Many thanks to **Alexey Grigorev** and the **DataTalks.Club** team for creating and maintaining such a high-quality, freely available program. The structure, technical depth, and emphasis on real-world workflows make it an excellent resource for anyone transitioning into ML engineering.
-
----
+Official course repository:
+https://github.com/DataTalksClub/machine-learning-zoomcamp
 
 ## Additional Resources
 
