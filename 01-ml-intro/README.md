@@ -115,12 +115,11 @@ This guards against the **Multiple Comparisons Problem**, where one model may ap
 ## Environment and Reproducibility
 
 This project was implemented using:
-- Python 3.11
+- Python 3.12
 - NumPy
 - Pandas
 - Scikit-Learn
-- Matplotlib
-- Seaborn
+- Statsmodels
 - Jupyter Notebook
 
 Pandas version used:
@@ -147,15 +146,15 @@ Dataset: `car_fuel_efficiency.csv`
 
 ### Dataset Size
 
-Total records: **8704**
+Total records: **9704**
 
 ### Fuel Types
 
-The dataset contains **4 distinct fuel types**.
+The dataset contains **2 distinct fuel types**.
 
 ### Missing Values
 
-There are **3 columns with missing values**, including horsepower.
+There are **4 columns with missing values**, including horsepower.
 
 ## Handling Missing Data
 
@@ -167,9 +166,8 @@ Steps taken:
 3. Fill missing values using the mode
 4. Recalculate median
 
-Result: **The median horsepower did not change after imputation.**
-
-This illustrates how mode imputation can preserve distribution shape when missingness is limited.
+Result: The median horsepower changed from 149.0 to 152.0 after mode imputation.
+This demonstrates how even simple imputation strategies can shift central tendency statistics.
 
 ## Linear Algebra Foundations
 
