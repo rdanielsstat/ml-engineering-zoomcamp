@@ -1,7 +1,3 @@
-# 🚀 Machine Learning Engineering Portfolio
-
-### Machine Learning Zoomcamp
-
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
@@ -11,6 +7,10 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-FA0F00?logo=jupyter&logoColor=white)
 ![CRISP-DM](https://img.shields.io/badge/Framework-CRISP--DM-informational)
 ![Supervised Learning](https://img.shields.io/badge/ML-Supervised%20Learning-brightgreen)
+
+# 🚀 Machine Learning Engineering Portfolio
+
+**Machine Learning Zoomcamp**
 
 ## Overview
 
