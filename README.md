@@ -8,9 +8,7 @@
 ![CRISP-DM](https://img.shields.io/badge/Framework-CRISP--DM-informational)
 ![Supervised Learning](https://img.shields.io/badge/ML-Supervised%20Learning-brightgreen)
 
-# 🚀 Machine Learning Engineering
-
-**Machine Learning Zoomcamp**
+# Machine Learning Engineering
 
 ## Overview
 
