@@ -1,3 +1,13 @@
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikitlearn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0)
+![Jupyter](https://img.shields.io/badge/Jupyter-FA0F00?logo=jupyter&logoColor=white)
+![CRISP-DM](https://img.shields.io/badge/Framework-CRISP--DM-informational)
+![Supervised Learning](https://img.shields.io/badge/ML-Supervised%20Learning-brightgreen)
+
 # Machine Learning Engineering Zoomcamp Coursework
 
 Rob Daniels
