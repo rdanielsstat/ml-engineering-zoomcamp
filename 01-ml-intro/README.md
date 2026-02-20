@@ -66,7 +66,9 @@ This shift from explicit rules to learned patterns is foundational in modern ML 
 
 ## Project Framework: CRISP-DM
 
-I structured the project using the CRISP-DM methodology, the industry standard lifecycle for ML projects.
+I structured the project using the CRISP-DM methodology. CRISP-DM stands for Cross-Industry Standard Process for Data Mining. It is a widely adopted open standard process model that provides a structured, industry-agnostic roadmap for solving data-driven problems.
+
+The methodology breaks down analytics projects into six logical phases:
 
 1. Business Understanding
 
@@ -92,7 +94,11 @@ I structured the project using the CRISP-DM methodology, the industry standard l
 
     Prepare the solution for production use.
 
-Machine learning is inherently iterative. Each stage informs the next.
+![CRISP-DM Process Diagram](images/crisp-dm-diagram.png)
+
+*Figure: CRISP-DM process model (Source: Wikimedia Commons, CC BY-SA 3.0)*
+
+Machine learning is inherently iterative. Each stage informs the next. CRISP-DM encourages iteration between phases as insights develop and priorities shift.
 
 ## Model Selection and Validation Strategy
 
@@ -122,22 +128,21 @@ This project was implemented using:
 - Statsmodels
 - Jupyter Notebook
 
-Pandas version used:
+A dedicated Python virtual environment ensures reproducibility:
+
+```bash
+python3.12 -m venv .venv
+source .venv/bin/activate
+
+pip install numpy pandas scikit-learn statsmodels jupyter
+```
+
+Library versions can be checked using:
 
 ```python
 import pandas as pd
 
 pd.__version__
-```
-
-### Installed Version: 2.x (installed in the ml-zoomcamp conda environment)
-
-A dedicated conda environment ensures reproducibility:
-
-```bash
-conda create -n ml-zoomcamp python = 3.11
-conda activate ml-zoomcamp
-conda install numpy pandas scikit-learn seaborn jupyter
 ```
 
 ## Dataset Exploration: Car Fuel Efficiency
@@ -152,9 +157,21 @@ Total records: **9704**
 
 The dataset contains **2 distinct fuel types**.
 
+### Regional Fuel Efficiency Comparison
+
+To better understand performance variation across regions, I examined the maximum fuel efficiency for vehicles originating from Asia.
+
+```python
+max_fuel_efficiency = df[df['origin'] == 'Asia']['fuel_efficiency_mpg'].max()
+print(round(max_fuel_efficiency, 2))
+```
+**Result**:
+
+The maximum fuel efficiency is 23.76 MPG.
+
 ### Missing Values
 
-There are **4 columns with missing values**, including horsepower.
+There are **4 columns with missing values**: `num_cylinders`, `horsepower`, `acceleration`, and `num_doors`.
 
 ## Handling Missing Data
 
@@ -195,7 +212,7 @@ After computing:
 - Its inverse
 - Final weight vector $w$
 
-**Sum of regression coefficients:** 51
+**Sum of regression coefficients:** 0.519
 
 This exercise connects linear algebra directly to model training mechanics.
 
