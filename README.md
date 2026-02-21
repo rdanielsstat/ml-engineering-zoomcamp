@@ -14,7 +14,7 @@
 
 This repository documents my end-to-end machine learning engineering work completed through the **Machine Learning Zoomcamp**, an intensive, production-oriented ML program created by [Alexey Grigorev](https://github.com/alexeygrigorev) and the **DataTalks.Club** community.
 
-The focus of this work is not just modeling, but the *full ML lifecycle*:
+The focus of this work is not just modeling, but the full ML lifecycle:
 - Problem framing
 - Data preparation and feature engineering
 - Model training and validation
