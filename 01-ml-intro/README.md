@@ -1,16 +1,12 @@
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikitlearn&logoColor=white)
-![Statsmodels](https://img.shields.io/badge/Statsmodels-003B57?logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-FA0F00?logo=jupyter&logoColor=white)
 ![CRISP-DM](https://img.shields.io/badge/Framework-CRISP--DM-informational)
 
 # Machine Learning Introduction
 
-*Foundations of supervised learning, model selection, and the ML workflow*
+Foundations of supervised learning, model selection, and the ML workflow.
 
-## Project Overview
+## Overview
 
 This module establishes the conceptual and mathematical foundations of machine learning engineering.
 
@@ -21,8 +17,6 @@ Using the Car Fuel Efficiency dataset, I explored:
 - Model validation and selection strategies
 - Linear algebra foundations for regression
 - Practical environment setup for reproducible ML work
-
-This project demonstrates not just how to train models, but how to think about ML problems systematically and rigorously.
 
 ## What Is Machine Learning?
 

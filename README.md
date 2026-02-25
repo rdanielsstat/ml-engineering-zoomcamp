@@ -7,7 +7,7 @@
 
 # Machine Learning Engineering
 
-End-to-end machine learning projects demonstrating practical workflows from data ingestion to deployment. Implemented as part of the **Machine Learning Zoomcamp** by Alexey Grigorev and the DataTalks.Club community.
+End-to-end machine learning projects demonstrating practical workflows from data ingestion to deployment. Implemented as part of the **Machine Learning Zoomcamp** by [Alexey Grigorev](https://github.com/alexeygrigorev) and the **DataTalks.Club** community.
 
 ## Overview
 
@@ -69,7 +69,7 @@ Techniques and projects for deploying machine learning models as scalable servic
 
 ## Acknowledgment
 
-Course design and instruction by [Alexey Grigorev](https://github.com/alexeygrigorev) and the **DataTalks.Club** community.
+Course design and instruction by Alexey Grigorev and the DataTalks.Club community.
 
 Official repository: https://github.com/DataTalksClub/machine-learning-zoomcamp
 
