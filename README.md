@@ -1,10 +1,3 @@
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikitlearn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-
 # Machine Learning Engineering
 
 End-to-end machine learning projects demonstrating practical workflows from data ingestion to deployment. Implemented as part of the **Machine Learning Zoomcamp** by [Alexey Grigorev](https://github.com/alexeygrigorev) and the **DataTalks.Club** community.
